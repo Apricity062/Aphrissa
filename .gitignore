@@ -1,0 +1,7 @@
+build/
+.tools/
+.claude/
+.npm-cache/
+.mxproject
+archive_old_drivers/
+*.docx

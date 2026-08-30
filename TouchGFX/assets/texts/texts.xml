@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.26.1">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="script">
+      <Text Id="script15" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">致：与你遇到的第7个人进行一场目标为10区的赛跑。</Translation>
+      </Text>
+      <Text Id="script14" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">致：在3时24分面带微笑地照镜子，然后击碎镜中的物品。</Translation>
+      </Text>
+      <Text Id="script13" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">致：在L区行走三十七步后于面前的便利店购买一把水果刀。</Translation>
+      </Text>
+      <Text Id="script12" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">致：切割一缕月光，时限为30天。</Translation>
+      </Text>
+      <Text Id="script11" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">致：在时针位于7与8之间时制作蛋白酥皮奶油卷并一边看电影一边享用它。</Translation>
+      </Text>
+      <Text Id="script10" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">致：身着淡绿色衣物并在三角形的街道上走十步。</Translation>
+      </Text>
+      <Text Id="script9" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">致：立刻回家，有狗在家门口叫过一声后才可开门。</Translation>
+      </Text>
+      <Text Id="script8" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">致：于接受指令后的第二天早上睁开眼睛时便立刻喝下三杯水。</Translation>
+      </Text>
+      <Text Id="script7" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">致：将餐后余下的碗全部丢弃。</Translation>
+      </Text>
+      <Text Id="script6" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">致：抚摸5次用四足行走的动物。</Translation>
+      </Text>
+      <Text Id="script5" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">致：将你所遇到的第23个人的指甲修剪整齐。</Translation>
+      </Text>
+      <Text Id="script4" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">致：吃下五根红色的香蕉后跳入洗碗槽中。</Translation>
+      </Text>
+      <Text Id="script3" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">致：用盐水温煮自己的声带，并食用。</Translation>
+      </Text>
+      <Text Id="script2" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">致：在本月的第二个阴天为一盆植物浇水。</Translation>
+      </Text>
+      <Text Id="script1" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">致：在亲吻第62朵向日葵时仰望蓝天，并向你在此之后遇到的第四个年轻女孩表白，直至对方同意。</Translation>
+      </Text>
+      <Text Id="samples" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">＠＃＄％＆＊＋＝？～！知道了=（</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_E4ID" Alignment="Center" TypographyId="Scripbuttontext">
+        <Translation Language="GB">知道了=（</Translation>
+      </Text>
+      <Text Id="__SingleUse_PLGU" Alignment="Center" TypographyId="timesetting">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_78GN" Alignment="Center" TypographyId="Menu">
+        <Translation Language="GB">:</Translation>
+      </Text>
+      <Text Id="__SingleUse_RYOD" Alignment="Center" TypographyId="Menu">
+        <Translation Language="GB">时制</Translation>
+      </Text>
+      <Text Id="__SingleUse_LBHH" Alignment="Right" TypographyId="timesetting">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_6F3S" Alignment="Center" TypographyId="Chinese">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_0WWP" Alignment="Left" TypographyId="timesetting">
+        <Translation Language="GB">/</Translation>
+      </Text>
+      <Text Id="__SingleUse_S0HK" Alignment="Left" TypographyId="timesetting">
+        <Translation Language="GB">/</Translation>
+      </Text>
+      <Text Id="timesample" Alignment="Left" TypographyId="timesetting">
+        <Translation Language="GB">年月日AMPM/</Translation>
+      </Text>
+      <Text Id="handilight" Alignment="Left" TypographyId="Menu">
+        <Translation Language="GB" Alignment="Center">手动调光</Translation>
+      </Text>
+      <Text Id="__SingleUse_65NB" Alignment="Center" TypographyId="Menu">
+        <Translation Language="GB">亮度设置</Translation>
+      </Text>
+      <Text Id="__SingleUse_M7UX" Alignment="Center" TypographyId="Menu">
+        <Translation Language="GB">时间设置</Translation>
+      </Text>
+      <Text Id="__SingleUse_9L3V" Alignment="Left" TypographyId="timesetting">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_RC59" Alignment="Left" TypographyId="timesetting">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_1YKQ" Alignment="Left" TypographyId="timesetting">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_3UNI" Alignment="Left" TypographyId="timesetting">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_UX84" Alignment="Left" TypographyId="timesetting">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZSZ2" Alignment="Left" TypographyId="timesetting">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="timesettingsample" Alignment="Left" TypographyId="timesetting">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_48RL" Alignment="Center" TypographyId="Menu">
+        <Translation Language="GB">:</Translation>
+      </Text>
+      <Text Id="__SingleUse_77XI" Alignment="Center" TypographyId="Menu">
+        <Translation Language="GB">时制</Translation>
+      </Text>
+      <Text Id="maintimesample" Alignment="Left" TypographyId="Chinese">
+        <Translation Language="GB">星期一二三四五六日</Translation>
+      </Text>
+      <Text Id="autolight" Alignment="Left" TypographyId="Menu">
+        <Translation Language="GB" Alignment="Center">自动调光</Translation>
+      </Text>
+      <Text Id="menusample" Alignment="Left" TypographyId="Menu">
+        <Translation Language="GB">0123456789-:：</Translation>
+      </Text>
+      <Text Id="__SingleUse_OHWK" Alignment="Left" TypographyId="Menu">
+        <Translation Language="GB">心率：&lt;%d&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_UEB8" Alignment="Left" TypographyId="Menu">
+        <Translation Language="GB">血氧：&lt;%d&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_K24T" Alignment="Left" TypographyId="scoretext">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="sampledino" Alignment="Left" TypographyId="scoretext">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="dinoscore" Alignment="Left" TypographyId="scoretext">
+        <Translation Language="GB">&lt;%d&gt;</Translation>
+      </Text>
+      <Text Id="timetextsoul" Alignment="Left" TypographyId="chronograpgtext">
+        <Translation Language="GB">0123456789.</Translation>
+      </Text>
+      <Text Id="timetext" Alignment="Center" TypographyId="chronograpgtext">
+        <Translation Language="GB">&lt;%d&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_SNO8" Alignment="Left" TypographyId="scriptext">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="scriptbuttontext" Alignment="Center" TypographyId="Scripbuttontext">
+        <Translation Language="GB">-点此获取指令-</Translation>
+      </Text>
+      <Text Id="index" Alignment="Left" TypographyId="Menu">
+        <Translation Language="GB">谨遵指令之意</Translation>
+      </Text>
+      <Text Id="setting" Alignment="Left" TypographyId="Menu">
+        <Translation Language="GB">设置</Translation>
+      </Text>
+      <Text Id="chronograph" Alignment="Left" TypographyId="Menu">
+        <Translation Language="GB">秒表</Translation>
+      </Text>
+      <Text Id="heartrate" Alignment="Left" TypographyId="Menu">
+        <Translation Language="GB">心率</Translation>
+      </Text>
+      <Text Id="dinosuar" Alignment="Left" TypographyId="Menu">
+        <Translation Language="GB">某歌小恐龙</Translation>
+      </Text>
+      <Text Id="alarm" Alignment="Left" TypographyId="Menu">
+        <Translation Language="GB">闹钟</Translation>
+      </Text>
+      <Text Id="lightning" Alignment="Left" TypographyId="Menu">
+        <Translation Language="GB">手电</Translation>
+      </Text>
+      <Text Id="__SingleUse_W8W8" Alignment="Center" TypographyId="Chinese">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_I28S" Alignment="Center" TypographyId="timesetting">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Scripbuttontext" Font="STXINWEI.TTF" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Chinese" Font="simhei.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789年月日" />
+    <Typography Id="Menu" Font="STFANGSO.TTF" Size="27" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="scriptext" Font="STXINWEI.TTF" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="chronograpgtext" Font="simhei.ttf" Size="36" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="scoretext" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="timesetting" Font="consola.ttf" Size="35" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" />
+  </Typographies>
+</TextDatabase>

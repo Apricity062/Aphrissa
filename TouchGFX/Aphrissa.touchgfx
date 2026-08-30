@@ -1,0 +1,1528 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "screen1",
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "Name": "menubackground",
+            "Width": 240,
+            "Height": 240,
+            "FileName": "miuyindelicateface_square_resized.png"
+          },
+          {
+            "Type": "ScrollList",
+            "Name": "menuScrollList",
+            "X": 12,
+            "Y": 10,
+            "Width": 216,
+            "Height": 220,
+            "PaddingBefore": 20,
+            "Snapping": true,
+            "ItemTemplateName": "menuItemContainer",
+            "NumberofItems": 7,
+            "ItemMargin": 5,
+            "Easing": "Cubic",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 20
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "mainscreen"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "indexscreen"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "heartrate"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "chronograph"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "dinosuar"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "settings"
+            }
+          },
+          {
+            "InteractionName": "Interaction7",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "lightning"
+            }
+          },
+          {
+            "InteractionName": "Interaction8",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "alarm"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "indexscreen",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "bg",
+            "Width": 240,
+            "Height": 240,
+            "Filename": "blackbg.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Image",
+            "Name": "indexicon",
+            "X": 60,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "Index_blackbg_forbutton.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "scriptbutton",
+            "Y": 161,
+            "Width": 240,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "Y": 7,
+                "TextId": "scriptbuttontext",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 240,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textscript",
+            "X": 10,
+            "Y": 120,
+            "Width": 220,
+            "Height": 120,
+            "TextId": "__SingleUse_SNO8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 45
+            },
+            "WideTextAction": 5
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "mainscreen",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 240,
+            "Height": 240,
+            "Filename": "miuyindelicateface_square_resized.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "Y": 97,
+            "Width": 240,
+            "Height": 60,
+            "TextColor": {
+              "Red": 235,
+              "Green": 255,
+              "Blue": 252
+            },
+            "TextId": "__SingleUse_I28S",
+            "DisplaySeconds": true,
+            "DisplayLeadingZeroForHourIndicator": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "TextArea",
+            "Name": "date",
+            "X": 50,
+            "Y": 34,
+            "Width": 140,
+            "Height": 23,
+            "TextId": "__SingleUse_W8W8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 255,
+              "Blue": 252
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 20
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "weekday",
+            "X": 45,
+            "Y": 57,
+            "Width": 150,
+            "Height": 23,
+            "TextId": "__SingleUse_6F3S",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 255,
+              "Blue": 252
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "chronograph",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "chronobg",
+            "Width": 240,
+            "Height": 240,
+            "RelativeFilename": "miuyindelicateface_square_resized.png",
+            "Alpha": 160
+          },
+          {
+            "Type": "TextArea",
+            "Name": "timetext",
+            "X": 34,
+            "Y": 35,
+            "Width": 172,
+            "Height": 54,
+            "LockPosition": true,
+            "TextId": "timetext",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 255,
+              "Blue": 252
+            },
+            "Wildcard1": {
+              "TextId": "timetextsoul",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "startandstop",
+            "X": 30,
+            "Y": 120,
+            "Width": 70,
+            "Height": 70,
+            "Pressed": "buttonchronostop.png",
+            "Released": "buttonchronostart.png"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "reset",
+            "X": 140,
+            "Y": 120,
+            "Width": 70,
+            "Height": 70,
+            "Pressed": "buttonchrono0.png",
+            "Released": "buttonchrono0.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_refresh_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_refresh_50_50_E8F6FB.svg.png",
+            "IconX": 11,
+            "IconY": 12,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 31,
+            "Y": 34,
+            "Width": 178,
+            "Height": 56,
+            "RelativeFilename": "chronographbg.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "dinosuar",
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "Name": "dinobg",
+            "Width": 240,
+            "Height": 240,
+            "FileName": "miuyindelicateface_square_resized.png",
+            "Alpha": 160
+          },
+          {
+            "Type": "Image",
+            "Name": "dinoground",
+            "Y": 161,
+            "Width": 240,
+            "Height": 16,
+            "RelativeFilename": "dinoground.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "playerImg",
+            "X": 12,
+            "Y": 113,
+            "Width": 44,
+            "Height": 48,
+            "RelativeFilename": "miunojump.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "obstacle3",
+            "X": 80,
+            "Y": 104,
+            "Width": 32,
+            "Height": 58,
+            "RelativeFilename": "bigobstacles.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "obstacle2",
+            "X": 140,
+            "Y": 123,
+            "Width": 24,
+            "Height": 38,
+            "RelativeFilename": "middleobstacles.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "obstacle1",
+            "X": 192,
+            "Y": 133,
+            "Width": 28,
+            "Height": 28,
+            "RelativeFilename": "littleandflyingobstacles.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "scoreText",
+            "X": 67,
+            "Y": 13,
+            "Width": 32,
+            "Height": 20,
+            "TextId": "dinoscore",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 255,
+              "Blue": 252
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_K24T"
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "heartrate",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "heartratebg",
+            "Width": 240,
+            "Height": 240,
+            "RelativeFilename": "miuyindelicateface_square_resized.png",
+            "Alpha": 160
+          },
+          {
+            "Type": "TextArea",
+            "Name": "bloodoxygen",
+            "X": 39,
+            "Y": 64,
+            "Width": 81,
+            "Height": 32,
+            "LockPosition": true,
+            "TextId": "__SingleUse_UEB8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 255,
+              "Blue": 252
+            },
+            "AutoSize": true,
+            "Wildcard1": {}
+          },
+          {
+            "Type": "TextArea",
+            "Name": "heartrate",
+            "X": 39,
+            "Y": 32,
+            "Width": 81,
+            "Height": 32,
+            "LockPosition": true,
+            "TextId": "__SingleUse_OHWK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 255,
+              "Blue": 252
+            },
+            "AutoSize": true,
+            "Wildcard1": {}
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "settings",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "settingbg",
+            "Width": 240,
+            "Height": 240,
+            "RelativeFilename": "__generated\\dark_theme_images_backgrounds_240x240_poly.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "timesettingbutton",
+            "Y": 50,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_regular_height_50_medium_round_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_regular_height_50_medium_round_disabled.png",
+            "TextId": "__SingleUse_M7UX",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "dark_theme\\presets\\button\\regular\\height_50\\medium_round_disabled.json"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "lightsettingbutton",
+            "Y": 140,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_regular_height_50_medium_round_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_regular_height_50_medium_round_disabled.png",
+            "TextId": "__SingleUse_65NB",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "dark_theme\\presets\\button\\regular\\height_50\\medium_round_disabled.json"
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "lightwindow",
+            "Width": 240,
+            "Height": 240,
+            "Visible": false,
+            "FileName": "blackbg.png",
+            "ModalWidth": 240,
+            "ModalHeight": 240,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "ToggleButton",
+                "Name": "lightchanger",
+                "X": 70,
+                "Y": 75,
+                "Width": 100,
+                "Height": 60,
+                "Pressed": "__generated\\dark_theme_images_widgets_togglebutton_large_round_small_off_normal.png",
+                "Released": "__generated\\dark_theme_images_widgets_togglebutton_large_round_small_on_active.png"
+              },
+              {
+                "Type": "Slider",
+                "Name": "handilighter",
+                "X": 8,
+                "Y": 153,
+                "Width": 224,
+                "Height": 24,
+                "Visible": false,
+                "IsHorizontalSlider": true,
+                "BackgroundUnselected": "__generated\\dark_theme_images_widgets_slider_horizontal_thin_track_small.png",
+                "BackgroundSelected": "__generated\\dark_theme_images_widgets_slider_horizontal_thin_filler_small.png",
+                "Indicator": "__generated\\dark_theme_images_widgets_slider_horizontal_thin_round_dark.png",
+                "BackgroundX": 12,
+                "BackgroundY": 9,
+                "IndicatorMax": 200,
+                "ValueMax": 100,
+                "Preset": "dark_theme\\presets\\slider\\horizontal\\thin\\small_round_dark.json",
+                "Clickable": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "autosetlight",
+                "X": 66,
+                "Y": 18,
+                "Width": 108,
+                "Height": 32,
+                "TextId": "autolight",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "timewindow",
+            "Width": 240,
+            "Height": 240,
+            "Visible": false,
+            "FileName": "blackbg.png",
+            "ModalWidth": 240,
+            "ModalHeight": 240,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "xiegang1_1",
+                "X": 143,
+                "Y": 154,
+                "Width": 19,
+                "Height": 39,
+                "TextId": "__SingleUse_0WWP",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "hour",
+                "X": 55,
+                "Y": 45,
+                "Width": 65,
+                "Height": 50,
+                "ItemTemplateName": "hourfigure1",
+                "NumberofItems": 24,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "timeswitch",
+                "X": 70,
+                "Y": 7,
+                "Width": 100,
+                "Height": 36,
+                "Pressed": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+                "Released": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+                "TextId": "__SingleUse_77XI",
+                "ReleasedColor": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "PressedColor": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "TextRotation": "0",
+                "Preset": "dark_theme\\presets\\button\\regular\\height_36\\tiny_round_disabled.json"
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "minute",
+                "X": 123,
+                "Y": 45,
+                "Width": 65,
+                "Height": 50,
+                "ItemTemplateName": "minutefigure",
+                "NumberofItems": 60,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "TextArea",
+                "Name": "themaohao",
+                "X": 116,
+                "Y": 59,
+                "Width": 6,
+                "Height": 32,
+                "TextId": "__SingleUse_48RL",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "year",
+                "X": 15,
+                "Y": 140,
+                "Width": 65,
+                "Height": 50,
+                "ItemTemplateName": "yearfigure1",
+                "NumberofItems": 100,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "amandpmbox",
+                "X": 184,
+                "Y": 50,
+                "Width": 65,
+                "Height": 50,
+                "ItemTemplateName": "amandpm1",
+                "NumberofItems": 2,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "month",
+                "X": 97,
+                "Y": 140,
+                "Width": 65,
+                "Height": 50,
+                "ItemTemplateName": "monthfigure1",
+                "NumberofItems": 12,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "day",
+                "X": 160,
+                "Y": 140,
+                "Width": 65,
+                "Height": 50,
+                "ItemTemplateName": "dayfigure1",
+                "NumberofItems": 31,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "TextArea",
+                "Name": "xiegang1",
+                "X": 76,
+                "Y": 154,
+                "Width": 19,
+                "Height": 39,
+                "TextId": "__SingleUse_S0HK",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "gotoscreen1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "screen1"
+            }
+          },
+          {
+            "InteractionName": "switchhandilighter",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "lightchanger"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "swithcHandiLighter"
+            }
+          },
+          {
+            "InteractionName": "tosettinglight",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "lightsettingbutton"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "lightwindow"
+            }
+          },
+          {
+            "InteractionName": "tosettime",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "timesettingbutton"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "timewindow"
+            }
+          },
+          {
+            "InteractionName": "quitlighter",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "lightwindow"
+            }
+          },
+          {
+            "InteractionName": "quittimer",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "timewindow"
+            }
+          },
+          {
+            "InteractionName": "slider",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "handilighter"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "handisetlight"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "lightning",
+        "Components": [
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1",
+            "Width": 240,
+            "Height": 240,
+            "Pressed": "whitebg.png",
+            "Released": "blackbg.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "lighticon",
+            "X": 95,
+            "Y": 95,
+            "Width": 50,
+            "Height": 50,
+            "RelativeFilename": "__generated\\icon_theme_images_editor_highlight_50_50_FFFFFF.svg.png",
+            "Alpha": 191
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "alarm",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "alarmbg",
+            "Width": 240,
+            "Height": 240,
+            "RelativeFilename": "miuyindelicateface_square_resized.png",
+            "Alpha": 160
+          },
+          {
+            "Type": "ScrollList",
+            "Name": "scrollList1",
+            "Y": 10,
+            "Width": 240,
+            "Height": 220,
+            "PaddingBefore": 20,
+            "Snapping": true,
+            "ItemTemplateName": "AlarmItem",
+            "NumberofItems": 8,
+            "ItemMargin": 5,
+            "Easing": "Cubic",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 20
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "alarmwindow",
+            "Width": 240,
+            "Height": 240,
+            "Visible": false,
+            "FileName": "blackbg.png",
+            "ModalWidth": 240,
+            "ModalHeight": 240,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "ScrollWheel",
+                "Name": "hour",
+                "X": 55,
+                "Y": 45,
+                "Width": 65,
+                "Height": 50,
+                "ItemTemplateName": "hourfigure1",
+                "NumberofItems": 24,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "timeswitch",
+                "X": 70,
+                "Y": 7,
+                "Width": 100,
+                "Height": 36,
+                "Pressed": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+                "Released": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+                "TextId": "__SingleUse_RYOD",
+                "ReleasedColor": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "PressedColor": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "TextRotation": "0",
+                "Preset": "dark_theme\\presets\\button\\regular\\height_36\\tiny_round_disabled.json"
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "minute",
+                "X": 123,
+                "Y": 45,
+                "Width": 65,
+                "Height": 50,
+                "ItemTemplateName": "minutefigure",
+                "NumberofItems": 60,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "TextArea",
+                "Name": "themaohao",
+                "X": 116,
+                "Y": 59,
+                "Width": 6,
+                "Height": 32,
+                "TextId": "__SingleUse_78GN",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "amandpmbox",
+                "X": 184,
+                "Y": 50,
+                "Width": 65,
+                "Height": 50,
+                "ItemTemplateName": "amandpm1",
+                "NumberofItems": 2,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Name": "alarmcancel",
+                "X": 156,
+                "Y": 166,
+                "Width": 50,
+                "Height": 50,
+                "Pressed": "alarmicon_0.png",
+                "Released": "alarmicon_0.png",
+                "IconPressed": "__generated\\icon_theme_images_content_clear_50_50_E8F6FB.svg.png",
+                "IconReleased": "__generated\\icon_theme_images_content_clear_50_50_E8F6FB.svg.png",
+                "IconHeight": 50,
+                "IconWidth": 50
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Name": "alarmconfirm",
+                "X": 34,
+                "Y": 166,
+                "Width": 50,
+                "Height": 50,
+                "Pressed": "alarmicon.png",
+                "Released": "alarmicon.png",
+                "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+                "IconReleased": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+                "IconHeight": 50,
+                "IconWidth": 50
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "alarmcancel"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "alarmwindow"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "alarmconfirm"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "alarmwindow"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "ringingscreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "ringningbg",
+            "Width": 240,
+            "Height": 240,
+            "RelativeFilename": "miuyindelicateface_square_resized.png",
+            "Alpha": 160
+          },
+          {
+            "Type": "TextArea",
+            "Name": "timeshowing",
+            "X": 44,
+            "Y": 68,
+            "Width": 152,
+            "Height": 39,
+            "TextId": "__SingleUse_PLGU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 255,
+              "Blue": 252
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "quitalarm",
+            "X": 33,
+            "Y": 136,
+            "Width": 175,
+            "Height": 50,
+            "Pressed": "__generated\\light_theme_images_widgets_button_regular_height_50_small_round_inactive.png",
+            "Released": "__generated\\light_theme_images_widgets_button_regular_height_50_small_round_inactive.png",
+            "TextId": "__SingleUse_E4ID",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "light_theme\\presets\\button\\regular\\height_50\\small_round_inactive.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quitalarm"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "quitnowalarm"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "menuItemContainer",
+        "X": 14,
+        "Y": 63,
+        "Width": 216,
+        "Height": 90,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 220,
+            "Height": 90,
+            "RelativeFilename": "menubutton.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Title",
+            "X": 51,
+            "Y": 50,
+            "Width": 162,
+            "Height": 32,
+            "TextId": "index",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "Icon",
+            "X": 10,
+            "Y": 45,
+            "Width": 43,
+            "Height": 42,
+            "Filename": "Index_icon.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "minutefigure",
+        "X": 88,
+        "Y": 88,
+        "Width": 65,
+        "Height": 65,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "minutefigure1",
+            "Y": 12,
+            "Width": 22,
+            "Height": 41,
+            "TextId": "__SingleUse_UX84",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {}
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "hourfigure1",
+        "X": 88,
+        "Y": 88,
+        "Width": 65,
+        "Height": 65,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "hourfigure",
+            "X": 21,
+            "Y": 12,
+            "Width": 22,
+            "Height": 41,
+            "TextId": "__SingleUse_ZSZ2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {}
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "yearfigure1",
+        "X": 88,
+        "Y": 88,
+        "Width": 65,
+        "Height": 65,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "yearfigure",
+            "X": 21,
+            "Y": 12,
+            "Width": 22,
+            "Height": 41,
+            "TextId": "__SingleUse_1YKQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {}
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "monthfigure1",
+        "X": 88,
+        "Y": 88,
+        "Width": 65,
+        "Height": 65,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "monthfigure",
+            "Y": 12,
+            "Width": 22,
+            "Height": 41,
+            "TextId": "__SingleUse_RC59",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {}
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "dayfigure1",
+        "X": 88,
+        "Y": 88,
+        "Width": 65,
+        "Height": 65,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "dayfigure",
+            "Y": 12,
+            "Width": 22,
+            "Height": 41,
+            "TextId": "__SingleUse_9L3V",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {}
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "amandpm1",
+        "X": 88,
+        "Y": 88,
+        "Width": 65,
+        "Height": 65,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "amandpm",
+            "Y": 12,
+            "Width": 22,
+            "Height": 41,
+            "TextId": "__SingleUse_3UNI",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {}
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "AlarmItem",
+        "Y": 95,
+        "Width": 240,
+        "Height": 50,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "alarmbg",
+            "Width": 240,
+            "Height": 50,
+            "RelativeFilename": "__generated\\dark_theme_images_widgets_button_regular_height_50_medium_round_pressed.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "alarmtime",
+            "X": 50,
+            "Y": 6,
+            "Width": 285,
+            "Height": 39,
+            "TextId": "__SingleUse_LBHH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 255,
+              "Blue": 252
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "alarmon",
+            "Width": 50,
+            "Height": 50,
+            "Visible": false,
+            "RelativeFilename": "alarmicon.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "alarmoff",
+            "Width": 50,
+            "Height": 50,
+            "RelativeFilename": "alarmicon_0.png"
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "Aphrissa",
+    "Resolution": {
+      "Width": 240,
+      "Height": 240
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "mainscreen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 240
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": false
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateCommandOverride": "",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32U5",
+    "SubFamily": "STM32U575/585",
+    "Toolchain": "CMake",
+    "Platform": "m33",
+    "ProjectFile": "../Aphrissa.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.26.1"
+}

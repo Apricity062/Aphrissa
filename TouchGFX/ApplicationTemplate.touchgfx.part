@@ -1,0 +1,30 @@
+
+{
+  "Application": {
+    "Name": "Aphrissa",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "AvailableColorDepths": [ 16 ],
+    "AvailableLCDs":
+    {
+      "16": "LCD16bpp"
+    },
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 240
+      }
+    ],
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "Family": "STM32U5",
+    "SubFamily": "STM32U575/585",
+    "Platform": "m33",
+    "Toolchain": "CMake",
+    "ProjectFile": "../Aphrissa.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [
+    ],
+    "AdditionalFeatures": [
+    ]
+  },
+  "Version": "4.26.1"
+}
